@@ -10025,6 +10025,14 @@ CanvasRenderingContext2D.prototype.drawImage = function() {
                 Utils.saveSettings()
             }
         }, {
+            type: "checkbox",
+            label: "DDOS⚠️⚠️⚠️",
+            object: Settings.ServerDDOS,
+            property: "e",
+            onChange: e => {
+                Utils.saveSettings()
+            }
+        }, {
             type: "range",
             label: "Put that much in chest",
             min: 10,
