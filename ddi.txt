@@ -32363,5 +32363,5 @@ function LouxInterval() {
     }
 }
 window.gapi.load("auth2", Zj), setTimeout((() => {
-    AutoFeedInterval = setInterval(AutoFeed, 8e3), MainHackInterval = setInterval(LouxInterval, 80)
+    AutoFeedInterval = setInterval(AutoFeed, 7000), MainHackInterval = setInterval(LouxInterval, 80)
 }), 7e3), Utils.LoadHack();
